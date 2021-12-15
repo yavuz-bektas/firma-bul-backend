@@ -36,12 +36,7 @@ const factoryCreate = async (req, res) => {
 };
 
 const getAllFactory = async (req, res) => {
-  if (req.params.factoryname === []) {
-    res.status(400).send({
-      message: "Content can not be empty!",
-    });
-    return;
-  }
+
 
   await client.query(
     "SELECT * FROM factorylist ORDER BY factorytid ASC;",
