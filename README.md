@@ -11,6 +11,10 @@ In the documentation you will learn how to install it, how to use the interface 
 ## `Live - demo`
 ### http://3.16.214.155/
 
+#### Users Info for Login
+admin@admin.com
+admin@admin
+
 ## Ecosystem and Libraries
 
 | Name      | Description                             |
